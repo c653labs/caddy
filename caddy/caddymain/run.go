@@ -34,7 +34,9 @@ import (
 	_ "github.com/mholt/caddy/caddyhttp"
 
 	"github.com/mholt/caddy/caddytls"
+
 	// This is where other plugins get plugged in (imported)
+	_ "github.com/c653labs/caddytls-s3"
 )
 
 func init() {
